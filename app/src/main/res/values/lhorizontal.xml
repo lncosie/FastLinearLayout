@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LHLayout" parent="">
+        <item name="android:gravity">center_horizontal|left</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="LHFillVFill" parent="LHLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="LHFillVFillPadding" parent="LHFillVFill">
+        <item name="android:paddingLeft">@dimen/dp8</item>
+        <item name="android:paddingRight">@dimen/dp8</item>
+    </style>
+    <style name="LHNoneV48dp" parent="LHLayout">
+        <item name="android:layout_height">@dimen/dp48</item>
+    </style>
+    <style name="LHNoneV48dpPadding" parent="LHNoneV48dp">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_height">@dimen/dp48</item>
+    </style>
+    <style name="LH24dpV48dpPadding" parent="LHNoneV48dpPadding">
+        <item name="android:layout_width">@dimen/dp24</item>
+    </style>
+    <style name="LH32dpV48dpPadding" parent="LHNoneV48dpPadding">
+        <item name="android:layout_width">@dimen/dp32</item>
+    </style>
+    <style name="LH48dpV48dpPadding" parent="LHNoneV48dpPadding">
+        <item name="android:layout_width">@dimen/dp48</item>
+    </style>
+    <style name="LHFillV48dp" parent="LHNoneV48dp">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="LHFillV48dpPadding" parent="LHNoneV48dpPadding">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="LH3V48dpPadding" parent="LHNoneV48dpPadding">
+        <item name="android:layout_width">@dimen/dp0</item>
+        <item name="android:layout_weight">3</item>
+    </style>
+    <style name="LH7V48dpPadding" parent="LHNoneV48dpPadding">
+        <item name="android:layout_width">@dimen/dp0</item>
+        <item name="android:layout_weight">7</item>
+    </style>
+</resources>

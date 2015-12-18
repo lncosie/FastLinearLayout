@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CHLayout" parent="">
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="CHFillVFill" parent="CHLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="CHFillVFillPadding" parent="CHFillVFill">
+        <item name="android:paddingLeft">@dimen/dp8</item>
+        <item name="android:paddingRight">@dimen/dp8</item>
+    </style>
+    <style name="CHNoneV48dp" parent="CHLayout">
+        <item name="android:layout_height">@dimen/dp48</item>
+    </style>
+    <style name="CHNoneV48dpPadding" parent="CHNoneV48dp">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_height">@dimen/dp48</item>
+    </style>
+    <style name="CH24dpV48dpPadding" parent="CHNoneV48dpPadding">
+        <item name="android:layout_width">@dimen/dp24</item>
+    </style>
+    <style name="CH32dpV48dpPadding" parent="CHNoneV48dpPadding">
+        <item name="android:layout_width">@dimen/dp32</item>
+    </style>
+    <style name="CH48dpV48dpPadding" parent="CHNoneV48dpPadding">
+        <item name="android:layout_width">@dimen/dp48</item>
+    </style>
+    <style name="CHFillV48dp" parent="CHNoneV48dp">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="CHFillV48dpPadding" parent="CHNoneV48dpPadding">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="CH3V48dpPadding" parent="CHNoneV48dpPadding">
+        <item name="android:layout_width">@dimen/dp0</item>
+        <item name="android:layout_weight">3</item>
+    </style>
+    <style name="CH7V48dpPadding" parent="CHNoneV48dpPadding">
+        <item name="android:layout_width">@dimen/dp0</item>
+        <item name="android:layout_weight">7</item>
+    </style>
+</resources>
