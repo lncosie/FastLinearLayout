@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/HFillVWrapMargin"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              >
+
+    <LinearLayout style="@style/HFillVWrapMargin"
+                  xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:background="@android:color/holo_green_dark">
+
+        <LinearLayout
+            style="@style/CHFillV48dp">
+
+            <ImageView
+                style="@style/Icon24"
+                android:src="@android:drawable/ic_notification_overlay"/>
+
+            <TextView
+                style="@style/LH5V48dpPadding"
+                android:text="Looo"/>
+
+            <TextView
+                style="@style/RH5V48dpPadding"
+                android:text="Looo"/>
+
+            <ImageView
+                style="@style/Icon24"
+                android:src="@android:drawable/ic_delete"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/CHFillV48dp">
+
+            <ImageView
+                style="@style/Icon24"
+                android:src="@android:drawable/stat_notify_call_mute"/>
+
+            <TextView
+                style="@style/LH5V48dpPadding"
+                android:text="Looo"/>
+
+            <Switch
+                style="@style/Icon32"
+                android:src="@android:drawable/ic_delete"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout style="@style/HFillVWrapMargin"
+                  android:background="@android:color/holo_green_dark">
+
+        <LinearLayout
+            style="@style/CHFillV48dp">
+
+            <ImageView
+                style="@style/Icon24"
+                android:src="@android:drawable/ic_notification_overlay"/>
+
+            <TextView
+                style="@style/LH5V48dpPadding"
+                android:text="Looo"/>
+
+            <TextView
+                style="@style/RH5V48dpPadding"
+                android:text="Looo"/>
+
+            <ImageView
+                style="@style/Icon24"
+                android:src="@android:drawable/ic_delete"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/CHFillV48dp">
+
+            <ImageView
+                style="@style/Icon24"
+                android:src="@android:drawable/stat_notify_call_mute"/>
+
+            <TextView
+                style="@style/LH5V48dpPadding"
+                android:text="Looo"/>
+
+            <Switch
+                style="@style/Icon32"
+                android:src="@android:drawable/ic_delete"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

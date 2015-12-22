@@ -1,33 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="RHLayout" parent="">
-        <item name="android:gravity">center_horizontal|right</item>
+        <item name="android:gravity">center_vertical|right</item>
         <item name="android:orientation">horizontal</item>
-    </style>
-    <style name="RHFillVFill" parent="RHLayout">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">match_parent</item>
-    </style>
-
-    <style name="RHFillVFillPadding" parent="RHFillVFill">
-        <item name="android:paddingLeft">@dimen/dp8</item>
-        <item name="android:paddingRight">@dimen/dp8</item>
     </style>
     <style name="RHNoneV48dp" parent="RHLayout">
         <item name="android:layout_height">@dimen/dp48</item>
     </style>
     <style name="RHNoneV48dpPadding" parent="RHNoneV48dp">
-        <item name="android:orientation">horizontal</item>
-        <item name="android:layout_height">@dimen/dp48</item>
-    </style>
-    <style name="RH24dpV48dpPadding" parent="RHNoneV48dpPadding">
-        <item name="android:layout_width">@dimen/dp24</item>
-    </style>
-    <style name="RH32dpV48dpPadding" parent="RHNoneV48dpPadding">
-        <item name="android:layout_width">@dimen/dp32</item>
-    </style>
-    <style name="RH48dpV48dpPadding" parent="RHNoneV48dpPadding">
-        <item name="android:layout_width">@dimen/dp48</item>
+        <item name="android:paddingLeft">@dimen/padding</item>
+        <item name="android:paddingRight">@dimen/padding</item>
     </style>
     <style name="RHFillV48dp" parent="RHNoneV48dp">
         <item name="android:layout_width">match_parent</item>
@@ -35,16 +17,12 @@
     <style name="RHFillV48dpPadding" parent="RHNoneV48dpPadding">
         <item name="android:layout_width">match_parent</item>
     </style>
-    <style name="RH3V48dpPadding" parent="RHNoneV48dpPadding">
+    <style name="RH5V48dp" parent="RHNoneV48dp">
         <item name="android:layout_width">@dimen/dp0</item>
-        <item name="android:layout_weight">3</item>
+        <item name="android:layout_weight">5</item>
     </style>
     <style name="RH5V48dpPadding" parent="RHNoneV48dpPadding">
         <item name="android:layout_width">@dimen/dp0</item>
         <item name="android:layout_weight">5</item>
-    </style>
-    <style name="RH7V48dpPadding" parent="RHNoneV48dpPadding">
-        <item name="android:layout_width">@dimen/dp0</item>
-        <item name="android:layout_weight">7</item>
     </style>
 </resources>
